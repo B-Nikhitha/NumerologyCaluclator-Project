@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numerology Calculator</title>
+    <link rel="stylesheet" href="./Num.css">
+    
+</head>
+<body>
+
+<h1>Numerology Combination</h1>
+
+<div class="form-group">
+    <label for="dob">Enter DOB (in DD/MM/YYYY format):</label>
+    <input type="text" id="dob" name="dob" required>
+</div>
+
+<div class="form-group">
+    <label for="gender">Select Gender:</label>
+    <select id="gender" name="gender" required>
+        <option value="1">Boy</option>
+        <option value="2">Girl</option>
+    </select>
+</div>
+
+<button id="calculate-btn">Calculate</button>
+
+<div class="result" id="result"></div>
+
+<script src="./Num.js"></script>
+
+</body>
+</html>

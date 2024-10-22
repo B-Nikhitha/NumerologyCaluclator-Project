@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+}
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.result {
+    margin-top: 20px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+td {
+    padding: 10px;
+    text-align: center;
+}
